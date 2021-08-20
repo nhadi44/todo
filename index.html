@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="sidebar-left">
+        <h1 class="text-md">Todo App</h1>
+        <p class="text-sm">Enhance your productivity</p>
+        <div id="show-todo"></div>
+      </section>
+      <section class="sidebar-right">
+        <div class="form-input">
+          <form action="" id="input-form">
+            <h3 class="text-input">Input your activity</h3>
+            <input type="text" class="input-sm" id="input-todo" required/>
+            <br />
+            <button type="submit" class="btn-submit">Add Todo</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
